@@ -23,6 +23,7 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
+$string['computedwithroles'] = 'Computed with rules {$a}.';
 $string['configincluderoles'] = 'List of roles which shall be taken into consideration for the report.';
 $string['eventactivityreportviewed'] = 'Activity report viewed';
 $string['eventoutlinereportviewed'] = 'Outline report viewed';

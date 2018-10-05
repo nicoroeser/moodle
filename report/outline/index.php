@@ -118,6 +118,10 @@ $filterform->display();
 
 echo $OUTPUT->container(get_string('computedfromlogs', 'admin', userdate($minlog)), 'loginfo');
 
+$includedroles = get_config('report_outline', 'includeroles');
+echo $OUTPUT->container(get_string('computedwithroles', 'report_outline', $includedroles), 'loginfo');
+        // TODO: use strings describing the role(s) instead of IDs
+
 $outlinetable = new html_table();
 $outlinetable->attributes['class'] = 'generaltable boxaligncenter';
 $outlinetable->cellpadding = 5;
