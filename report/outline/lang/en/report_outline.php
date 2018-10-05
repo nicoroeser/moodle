@@ -23,8 +23,10 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
+$string['configincluderoles'] = 'List of roles which shall be taken into consideration for the report.';
 $string['eventactivityreportviewed'] = 'Activity report viewed';
 $string['eventoutlinereportviewed'] = 'Outline report viewed';
+$string['includeroles'] = 'Included roles';
 $string['neverseen'] = 'Never seen';
 $string['nocapability'] = 'Can not access user outline report';
 $string['nologreaderenabled'] = 'No log reader enabled';
